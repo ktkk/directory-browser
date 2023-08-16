@@ -1,0 +1,17 @@
+@mixin item {
+    display: flex;
+
+    p {
+        padding-right: 5px;
+    }
+}
+
+.item {
+    @include item;
+}
+
+.itemSelected {
+    color: cornflowerblue;
+
+    @include item;
+}
