@@ -1,6 +1,6 @@
 import { Directory } from "../types/directory";
 
-export function transformCategories(flatDirectories: Directory[]): Directory[] {
+export function transformDirectories(flatDirectories: Directory[]): Directory[] {
   const directories: Directory[] = [];
 
   function map(c: Directory[]): Directory[] {
